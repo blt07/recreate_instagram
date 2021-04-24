@@ -13,7 +13,7 @@ body
 {
     width: 100%;
     min-height: 100vh;
-    background-color: rgb(243,243,243);
+    background-color: whitesmoke;
     margin: 0;
     padding: 0;
     display: flex;
@@ -43,6 +43,7 @@ body
 
 .profile-photo img{
     height: 6rem;
+
 }
 
 .profile-photo
@@ -52,6 +53,8 @@ body
     align-items: center;
     border-radius: 50%;
     overflow: hidden;
+    border: 3px rgb(255, 33, 144) ridge;
+    margin-top: 1rem;
 }
 
 .instagram-continue
@@ -89,7 +92,7 @@ body
 
 .instagram-login
 {
-    background-color: #0095f6;
+    background-color: rgb(0, 142,254);
     color: #ffffff;
     padding: 8px;
     border-radius: 4px;
@@ -144,6 +147,8 @@ body
 .app-download:nth-child(1)
 {
     background-image: url("/Users/paulocosta/Documents/Lógica de Prog/recreate_instagram_page/apple-button.png");
+    
+
 }
 
 .app-download:nth-child(2)
